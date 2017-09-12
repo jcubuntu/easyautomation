@@ -6,5 +6,4 @@ int main(){
     float f = 1.25;
     printf("Hello world \n");
     printf("display n : %d \n",n);
-
 }
