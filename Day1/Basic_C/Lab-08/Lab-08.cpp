@@ -2,6 +2,7 @@
 
 void helloWorld(){
    printf("Hello World\n");
+   printf("Test \n");
 }
 
 void displayNum(int inputNum){
@@ -15,6 +16,6 @@ int sum(int num1, int num2){
 }
 
 int main(){
-
+   displayNum(sum(9,7));
 
 }

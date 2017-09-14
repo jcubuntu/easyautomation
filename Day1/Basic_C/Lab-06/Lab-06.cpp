@@ -5,5 +5,6 @@ int main(){
    while(n < 10){
       printf("%d \n",n);
       n++;
+      if (n == 3) break;
    }
 }

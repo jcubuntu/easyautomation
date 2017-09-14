@@ -1,9 +1,12 @@
 #include <stdio.h>
 
-int main(){
-    int n=10;
-    printf("n = %d \n",n);
-    printf("input new n value : ");
-    scanf("%d",&n);
-    printf("n = %d",n);
+main(){
+    int a = 10;
+    int b;
+    printf("%d \n",a);
+    b = ++a;
+
+    printf("%d \n",b);
+    printf("%d \n",a);
+
 }
