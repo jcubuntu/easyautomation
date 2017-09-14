@@ -63,7 +63,7 @@ void testSensor(){
 
 void motor(char ch, int pow)
 {
-  long p = 0;
+  
   if (pow >= -255 && pow <= 255)
   {
     if (ch == 1 && pow > 0)
